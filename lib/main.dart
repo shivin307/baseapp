@@ -21,7 +21,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: kThemeData,
-      initialRoute: '/desktop', // Set the initial route
+      initialRoute: '/', // Set the initial route
       onGenerateRoute: kRoutes
     );
   }

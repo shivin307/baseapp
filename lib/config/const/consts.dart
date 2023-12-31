@@ -1,4 +1,5 @@
 import 'package:baseapp/local/local_storage.dart';
+import 'package:baseapp/view/TestPage.dart';
 import 'package:baseapp/view/desktop_page.dart';
 import 'package:baseapp/view/login_page.dart';
 import 'package:flutter/material.dart';
@@ -40,6 +41,8 @@ Route<dynamic>? kRoutes(RouteSettings settings) {
       return MaterialPageRoute(builder: (_) => LoginPage());
     case '/desktop':
       return MaterialPageRoute(builder: (_) => const DesktopPage());
+    case '/test':
+      return MaterialPageRoute(builder: (_) =>  TestPage());
     default:
       return MaterialPageRoute(
         builder: (_) => Scaffold(
